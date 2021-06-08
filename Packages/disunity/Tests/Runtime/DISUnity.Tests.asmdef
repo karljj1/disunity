@@ -1,0 +1,11 @@
+{
+    "name": "DISUnity.Tests",
+    "references": [
+        "DISUnity"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": []
+}

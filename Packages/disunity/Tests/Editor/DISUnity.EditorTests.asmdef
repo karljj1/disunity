@@ -1,0 +1,14 @@
+{
+    "name": "UDISUnity.EditorTests",
+    "references": [
+        "DISUnity.Editor",
+        "DISUnity"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

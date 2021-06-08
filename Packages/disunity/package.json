@@ -1,0 +1,9 @@
+{
+	"name": "disunity",
+	"displayName":"DIS Unity",
+	"version": "0.1.0",
+	"unity": "2018.3",
+	"description": "DIS(IEEE 1278.1) Unity Library",
+	"dependencies": {
+	}
+}

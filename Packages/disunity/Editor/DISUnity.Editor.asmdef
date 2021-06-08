@@ -1,0 +1,10 @@
+{
+    "name": "DISUnity.Editor",
+    "references": [
+      "DISUnity"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}
