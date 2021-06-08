@@ -2,5 +2,18 @@
     "name": "DISUnity",
     "references": [],
     "includePlatforms": [],
-    "excludePlatforms": []
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "Unity",
+            "expression": "",
+            "define": "DIS_VERSION_7"
+        }
+    ],
+    "noEngineReferences": false
 }

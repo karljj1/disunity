@@ -1,0 +1,58 @@
+﻿namespace DISUnity.Enumerations
+{
+    /// <summary>
+    /// Indicates the type of action requested.  
+    /// </summary>
+    public enum ActionID
+    {
+        Other,
+        LocalStorageOfTheRequestedInformation,
+        InformSMofEventRanOutOfAmmunition,
+        InformSMofEventKilledInaAction,
+        InformSMofEventDamage,
+        InformSMofEventMobilityDisabled,
+        InformSMofEventFireDisabled,
+        InformSMofEventRanOutOfFuel,
+        RecallCheckPointData,
+        RecallInitialParameters,
+        InitiateTetherLead,
+        InitiateTetherFollow,
+        Unthether,
+        InitiateServiceStationResupply,
+        InitiatetailGateResupply,
+        InitiaTehitchLead,
+        InitiaTehitchFollow,
+        Unhitch,
+        Mount,
+        Dismount,
+        StartDRCDailyReadinessCheck,
+        StopDRC,
+        DataQuery,
+        StatusRequest,
+        SendObjectStateData,
+        Reconstitute,
+        LockSiteConfiguration,
+        UnlockSiteConfiguration,
+        UpdateSiteConfiguration,
+        QuerySiteConfiguration,
+        TetheringInformation,
+        MountIntent,
+        AcceptSubscription = 33,
+        UnSubscribe,
+        TeleportEntity,
+        Changeaggregatestate,
+        RequestStartPDU,
+        WakeUpGetReadyForInitialization,
+        InitializeInternalparameters,
+        SendPlanData,
+        SynchronizeInternalClocks,
+        Run,
+        SaveInternalParameters,
+        SimulatemalFunction,
+        JoinExercise,
+        ResignExercise,
+        TimeAdvance,
+        TACCSFLOSRequestType1 = 100,
+        TACCSFLOSRequestType2
+    }
+}
