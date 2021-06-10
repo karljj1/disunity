@@ -5,7 +5,13 @@ using NUnit.Framework;
 
 namespace DISUnity.Tests
 {
+    [TestFixture(typeof(ClockTime))]
+    [TestFixture(typeof(DataQueryDatumSpecification))]
+    [TestFixture(typeof(EntityIdentifier))]
+    [TestFixture(typeof(EntityType))]
+    [TestFixture(typeof(SimulationAddress))]
     [TestFixture(typeof(TimeStamp))]
+    [TestFixture(typeof(WorldCoordinates))]
     public class SerializationTests<T> where T : ISerializedData, new()
     {
         [Test]
